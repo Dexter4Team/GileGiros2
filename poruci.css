@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+
+    width: 99vw;
+    height: 50vh;
+    margin-left: 0px;
+    margin-right: 0px;
+    background-color: #111111;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.kontejner{
+    height: 60vh;
+    width: 60vw;
+    background-color: #111111;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 100%;
+    margin:0 auto;
+    margin-top: 1cm;
+}
+.levi{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+    font-size: 50px;
+    font-weight: 700;
+    color: #ececec;
+    background-image: url(licno2.jpg);
+    background-size: cover;
+    border-radius: 2%;
+}
+
+.desni{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    font-weight: 700;
+    background-image: url(glovo\ 2.jpg);
+    background-size: cover;
+    color: #ececec;
+    border-radius: 2%;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    left: 10%;
+}
+
+.levi:hover{
+    filter: blur(1.5px);
+    transform: scale(0.98);
+    transition-duration: 1.3s;
+    border-radius: 5%;
+}
+.desni:hover{
+    filter: blur(1.5px);
+    transform: scale(0.98);
+    transition-duration: 1.3s;
+    border-radius: 5%;
+}
+.logo{
+    width: 8%;
+    margin-top: 3%;
+    margin-left: 5%;
+ 
+}
